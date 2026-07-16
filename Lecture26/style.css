@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    height: 100%;
+    width: 100%;
+    overflow-x: none;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+}
+.navContainer {
+    width: 100vw;
+    /*background-color: rgba(113, 113, 154, 0.776);*/
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,116,1) 41%, rgba(0,212,255,1) 100%);
+    max-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+nav {
+    width: 100%;
+}
+#navList {
+    width: 100%;
+    padding: 15%;
+    list-style: none;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navLogo {
+    font-size: 2.8rem;
+    color: white;
+}
+#navItems {
+    display: flex;
+    gap: 40px;
+}
+a {
+    text-decoration: none;
+    color: azure;
+}
+.footerBox {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    color: azure;
+    text-align: center;
+    max-height: 40px;
+}
+.contentBox {
+    width: 70%;
+    margin: auto;
+    box-shadow: 3px 3px 30px black;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 3rem;
+}
+.item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rightBox {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.6s linear 0s;
+}
+.rightBox img {
+    border-radius: 20px;
+    transition: all 0.8s linear 0.5s;
+}
+.rightBox:hover {
+    transform: scale(1.2);
+}
+.leftBox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.leftBox h2 {
+    font-size: 2rem;
+}
+.rightBox .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(60, 54, 54, 0.7);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.6s linear 0s;
+}
+.rightBox:hover .overlay {
+    opacity: 1;
+}
+.rightBox .overlay span {
+    font-size: 1.2rem;
+    color: white;
+}
