@@ -5,8 +5,6 @@ StudySync is a modern, responsive landing page for an online learning platform. 
 
 ## 🌐 Live Demo
 
-> Add your deployed website link here.
-
 ```
 https://studysync-project-nu.vercel.app/
 ```
@@ -78,7 +76,7 @@ StudySync/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/studysync.git
+git clone https://github.com/ArbaazAli1209/Beginner-FrontEnd/tree/master/Lecture33.git
 ```
 
 ### Run the project
